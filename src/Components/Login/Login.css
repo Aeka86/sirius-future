@@ -1,0 +1,109 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.login h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.login input {
+  width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login button {
+  width: 300px;
+  padding: 10px;
+  background-color: #9370db;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login button:hover {
+  background-color: #7b68ee;
+}
+
+.login .logo {
+  width: 80px;
+  height: auto;
+}
+
+.login .remember-me {
+  display: flex;
+  width: 570px;
+  margin-bottom: 20px;
+}
+
+.login .remember-me input {
+  margin: 0;
+}
+
+.login .remember-me label {
+  margin-left: -130px;
+}
+
+.login .login-links {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin-top: 10px;
+}
+
+.login .forgot-password,
+.login .coach-login {
+  color: #6a5acd;
+  text-decoration: none;
+}
+
+.login .forgot-password:hover,
+.login .coach-login:hover {
+  text-decoration: underline;
+}
+
+.login .register-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.login .register-section span {
+  margin-bottom: 10px;
+}
+
+.login .register-section a {
+  color: #6a5acd;
+  text-decoration: none;
+}
+
+.login .register-section a:hover {
+  text-decoration: underline;
+}
+
+.login .language-selector {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.login .language-selector span {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.login .language-selector .selected-lang {
+  color: #9370db;
+  font-weight: bold;
+}

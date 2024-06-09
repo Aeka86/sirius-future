@@ -1,0 +1,144 @@
+.calendar {
+  display: flex;
+}
+
+.menu {
+  width: 236px;
+  height: 704px;
+  padding: 20px;
+  background-color: #EEEEFF;
+  border-radius: 30px 0 0 0;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu ul li {
+  color: #434B74;
+  padding: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.menu ul li.active {
+  color: #8D7FC7;
+}
+
+.menu ul li img {
+  margin-right: 10px;
+}
+
+.menu .logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menu .logo img {
+  width: 50px;
+  height: 50px;
+}
+
+.menu .footer {
+  margin-top: auto;
+}
+
+.bottom-box {
+  background: #FDFDFF;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.bottom-box button {
+background-color: #D8ECFF;
+border: none;
+border-radius: 50px;
+  padding: 12px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 6px 2px;
+  cursor: pointer;
+}
+
+.calendar-body {
+  flex: 1;
+  padding: 20px;
+}
+
+.events {
+  margin-top: 20px;
+}
+
+/* Styling for the calendar grid */
+.container {
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-7 {
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.border {
+  border: 1px solid #ccc;
+}
+
+.rounded-md {
+  border-radius: 0.375rem; /* 6px */
+}
+
+.p-2 {
+  padding: 2rem; /* 8px */
+}
+
+.text-center {
+  text-align: right;
+}
+
+.bg-gray-200 {
+  background-color: #e2e8f0;
+}
+
+.text-gray-900 {
+  color: #2d3748;
+}
+
+.bg-green-500 {
+  background-color: #48bb78;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.profile-pic img,
+.other-pic img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 10px;
+}
+
+.calendar {
+  flex: 1;
+  display: flex;
+}
+

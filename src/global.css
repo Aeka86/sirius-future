@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  font-family: 'Circe Rounded', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Circe Rounded';
+  src: url('./fonts/circe-rounded/CirceRounded-Regular.otf') format('truetype');
+  
+}
